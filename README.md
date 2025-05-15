@@ -34,7 +34,7 @@ To implement customer segmentation using K-Means clustering on the Mall Customer
    Examine and visualize the resulting clusters to interpret patterns and relationships.
    
 ## Program:
-```
+```py
 import os
 os.environ["OMP_NUM_THREADS"] = "1"  # Prevent MKL memory leak warning on Windows
 
